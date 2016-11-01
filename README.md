@@ -4,23 +4,6 @@
 https://developer.apple.com/videos/play/wwdc2016/402/
 
 
-Описание параметров метода для получения списка заявок.
 
-1	ApiKey	Строка		Уникальный ключ, выданный определенной внешней системе	e8e6a311d54985a067ece5a008da280a
-2	Login	Строка		Логин пользователя	d_blinov
-3	Password	Строка		Пароль пользователя	Passw0rd
-4	ObjectCode	Строка		Код объекта	300
-5	Action	Строка		Символьный  код действия, которое необходимо выполнить над заявкой (см. таблицу 3).	GET_LIST
-6	Fields	Строка	{field1: value1, field2: value2, …}	Сериализованный  массив в формате JSON, содержащий названия и значения для полей заявки	Fields[FilterID]=3CD0E650-4B81-E511-A39A-1CC1DEAD694D
-
-
-
-Описание параметров метода для получения детальной информации по заявке.
-
-
-ApiKey	Строка		Уникальный ключ, выданный определенной внешней системе	e8e6a311d54985a067ece5a008da280a
-Login	Строка		Логин пользователя	d_blinov
-Password	Строка		Пароль пользователя	Passw0rd
-ObjectCode	Строка		Код объекта	300
-Action	Строка		Символьный  код действия, которое необходимо выполнить над заявкой (см. таблицу 3).	GET_INFO
-Fields	Строка	{field1: value1, field2: value2, …}	Сериализованный  массив в формате JSON, содержащий названия и значения для полей заявки	Fields[RequestID]=<Значение поля RequestID, полученное при вызове метода GET_LIST>
+  if let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
+                print("ASynchronous\(jsonResult)")
