@@ -4,6 +4,10 @@
 https://developer.apple.com/videos/play/wwdc2016/402/
 
 
+https://itunes.apple.com/ru/course/razrabotka-ios-prilozenij/id941293188?l=en
+
+
+
 
   if let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
                 print("ASynchronous\(jsonResult)")
