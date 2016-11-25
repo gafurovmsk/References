@@ -1,10 +1,10 @@
 # Reference_deck
 
 
+https://developer.apple.com/videos/play/wwdc2014/216/
+https://developer.apple.com/videos/play/wwdc2014/214/
+
 https://github.com/John-Lluch/SWRevealViewController/archive/master.zip
-
-
-
 
 
 https://www.raywenderlich.com/78568/create-slide-out-navigation-panel-swift
