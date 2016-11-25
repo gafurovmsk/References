@@ -1,6 +1,10 @@
 # Reference_deck
 
 
+https://www.raywenderlich.com/78568/create-slide-out-navigation-panel-swift
+
+https://www.dropbox.com/s/6n09lrr15ibcsl4/SidebarMenuStart.zip?dl=0
+
 https://developer.apple.com/videos/play/wwdc2016/402/
 
 
