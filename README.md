@@ -1,4 +1,4 @@
-# Reference_deck
+# References
 
 
 https://github.com/MudriyIlya/MadCurd_test_app
